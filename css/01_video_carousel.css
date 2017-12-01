@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+body{
+  background-color: #857f92;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+div{
+  margin: 0 auto;
+
+
+}
+
+.carousel-control-prev, .carousel-control-next{
+  background-color: black;
+}
