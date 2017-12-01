@@ -13,3 +13,8 @@ div{
 .carousel-control-prev, .carousel-control-next{
   background-color: black;
 }
+
+h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
