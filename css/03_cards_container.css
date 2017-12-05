@@ -1,0 +1,23 @@
+.container{
+  margin-top: 25px;
+}
+
+
+.col{
+  padding: 20px;
+  border: 1px black dashed;
+  margin: 2px;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-content{
+  padding: 5px;
+}
+
+.why{
+  background-color: pink;
+}
