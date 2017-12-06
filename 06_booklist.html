@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BookList</title>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="06_booklist.js"></script>
+
+</head>
+<body>
+  <h1>My Booklist</h1>
+  <ul id="booklist">
+  </ul>
+  <input type="text" id="addbook" placeholder="Type Book">
+  <button id="add">Add to List</button>
+  <script>
+
+$(document).ready(function(){
+  $('#add').click(function(){
+      var addTitle = $('#addbook').val();
+      if(addTitle.length > 0){
+        $("#booklist").append("<li>" + addTitle + "</li>");
+        $("#addbook").val('');
+      }
+  });
+});
+
+  </script>
+</body>
+</html>
